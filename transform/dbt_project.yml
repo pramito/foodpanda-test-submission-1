@@ -1,0 +1,14 @@
+name: 'foodpanda-test'
+version: '1.0.0'
+config-version: 1
+
+profile: 'test-example'
+
+model-paths: ['models']
+
+target-path: 'dbt_target'
+
+models:
+    +persist_docs: # for the table and column descriptions to show on DB
+        relation: true
+        columns: true
