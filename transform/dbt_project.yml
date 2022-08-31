@@ -1,12 +1,10 @@
 name: 'foodpanda-test'
 version: '1.0.0'
-config-version: 1
+config-version: 2
 
-profile: 'test-example'
+profile: 'test-example' # for connection to data warehouse
 
 model-paths: ['models']
-
-target-path: 'dbt_target'
 
 models:
     +persist_docs: # for the table and column descriptions to show on DB
