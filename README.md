@@ -7,4 +7,4 @@ For the submission of code related to foodpanda take home tests.
 
 2. Change the files order.csv and vendors.csv with the data files
 
-3. [Optional] Merge the pull request.
+3. Merge the pull request.
